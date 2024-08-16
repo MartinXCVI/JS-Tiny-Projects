@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Font "Lobster Two" (Weight: 400, 700) {font-family: 'Lobster Two', cursive;}-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------------------------------------------------------->
+    <!--Google Font "PT Sans" (Weight: 400) {font-family: 'PT Sans', sans-serif;}-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!----------------------------------------------------------------------------->
+    <!----CSS Stylesheet---->
+    <link rel="stylesheet" href="styles.css" />
+    <!---------------------->
+    <title>Tabs Project</title>
+  </head>
+  <body>
+    <main id="principal">
+      <!--Container--->
+      <section id="container">
+        <section class="title">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+            officia quos odit sequi quibusdam dolore dolorum enim veniam fuga
+            eius cumque laudantium.
+          </p>
+        </section>
+        <section class="info-section">
+          <figure class="info-fig">
+            <img src="estancia.png" alt="argentinian finca" />
+          </figure>
+          <!--Article with buttons div and subarticle with three information divs-->
+          <article class="about">
+            <!--Container of buttons-->
+            <div class="btn-container">
+              <button class="tab-btn active history-btn" data-id="history">
+                History
+              </button>
+              <button class="tab-btn" data-id="vision">Vision</button>
+              <button class="tab-btn goals-btn" data-id="goals">Goals</button>
+            </div>
+            <!--Article with three information divs-->
+            <article class="about-content">
+              <!--Company History div-->
+              <div class="content active" id="history">
+                <h4 class="subtitles">History</h4>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                  voluptas vero magni reprehenderit consectetur nulla fuga dicta
+                  dolore exercitationem! Obcaecati veniam distinctio provident
+                  debitis dolore autem, dolor rem at excepturi? Lorem, ipsum
+                  dolor sit amet consectetur adipisicing elit. Ipsam ad ex
+                  nesciunt sint sit modi velit sapiente et cumque repellendus
+                  aspernatur laborum, praesentium debitis rem consequuntur dolor
+                  sed dolores quam.
+                </p>
+              </div>
+              <!--Company Vision div-->
+              <div class="content" id="vision">
+                <h4 class="subtitles">Vision</h4>
+                <p class="paragraph">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident, ipsum dolor sit amet consectetur adipisicing
+                  elit.,similique sunt in culpa qui officia deserunt mollitia
+                  animi, id est. Et harum quidem rerum facilis est et expedita
+                  distinctio. Ipsam ad ex nesciunt sint sit modi velit sapiente
+                  et cumque repellendus.
+                </p>
+              </div>
+              <!--Company Goals div-->
+              <div class="content" id="goals">
+                <h4 class="subtitles">Goals</h4>
+                <p class="paragraph">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam,
+                  laudantium, eaque ipsa quae ab illo inventore veritatis et
+                  quasi architecto beatae vitae dicta sunt explicabo. Sed ut
+                  perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo laudantium.
+                </p>
+              </div>
+            </article>
+          </article>
+          <!------->
+        </section>
+      </section>
+      <!------->
+    </main>
+    <!-----JavaScript------>
+    <script src="app.js"></script>
+  </body>
+</html>
